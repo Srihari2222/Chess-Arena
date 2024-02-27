@@ -51,7 +51,7 @@ const buttonStyle = {
 function Home() {
     const redirectToUrl1 = () => {
         // window.location.href = "http://localhost:3000/multiplayer"; localhost
-        window.location.href = "https://srihari2222.github.io/chess-arena/multiplayer";
+        window.location.href = "https://chess-arena.netlify.app/multiplayer";
     };
 
     const redirectToUrl2 = () => {

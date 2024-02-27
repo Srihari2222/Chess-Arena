@@ -10,9 +10,9 @@ import {
 function App() {
     return (
         <>
-        <Router basename="/chess-arena">
+        <Router>
             <Routes>
-                <Route exactpath="/chess-arena" element={<Home/>} />
+                <Route path="/" element={<Home/>} />
                 <Route path="/multiplayer" element={<TwoPlayer/>} ></Route>
             </Routes>
         </Router>
